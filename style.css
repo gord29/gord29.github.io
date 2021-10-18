@@ -12,7 +12,8 @@ body {
 .navbar a {
 	color: white;
 	text-align: center;
-	padding: 0px 20px;
+	padding-left: 5%;
+	padding-top: 5%;
 	font-size: 18px;
 }
 .down {
@@ -43,6 +44,9 @@ a:link {
 }
 a:visited {
 	border-color: lightblue;
+}
+th {
+	width: 30%;
 }
 p.desc {
 	text-align: center;
