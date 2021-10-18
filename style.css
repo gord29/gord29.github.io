@@ -1,0 +1,96 @@
+body {
+	margin: 0;
+}
+.navbar {
+	background-color: #f0f0f0;
+	overflow: hidden;
+	border-style:groove;
+	border-color:#f0f0f0;
+}
+.navbar a {
+	float: right;
+	color: black;
+	text-align: center;
+	padding: 27px 20px;
+	font-size: 18px;
+}
+.navbar img {
+	float: left;
+	padding: 10px;
+}
+h3 {
+	float: left;
+	padding: 5px;
+}
+body {
+	background-color: lightblue;
+}
+a:link {
+	text-decoration: none;
+}
+.new:hover, .new:active {
+  background-color: green;
+  color: white;
+}
+.wow:hover, .wow:active {
+  background-color: green;
+  color: white;
+}
+a:visited {
+	border-color: lightblue;
+}
+p.desc {
+	text-align: center;
+}
+img.vivo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+img.mus {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+video.vid {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+}
+p.hh {
+	text-align: center;
+}
+p.styless {
+	text-align: center;
+	font-size: 20;
+}
+a.gg:link {
+	color:gray
+}
+a.gg:hover {
+	color: #36499e;
+}
+img.vivo2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+img.vivo3 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+a.hey{
+	background-color:lightgreen;
+}
+h1 {
+	text-align:center;
+	color:green;
+}
+img.tuu {
+	align:left;
+}

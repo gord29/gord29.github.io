@@ -1,0 +1,62 @@
+body {
+	margin: 5;
+}
+.navbar {
+	background-color: #f0f0f0;
+	overflow: hidden;
+	border-style:groove;
+	border-color:#f0f0f0;
+}
+.navbar a {
+	float: right;
+	color: black;
+	text-align: center;
+	padding: 27px 20px;
+	font-size: 18px;
+}
+.navbar img {
+	float: left;
+	padding: 10px;
+}
+h3 {
+	float: left;
+	padding: 5px;
+}
+body {
+	background-color: lightblue;
+}
+a:link {
+	text-decoration: none;
+}
+.new:hover, .new:active {
+  background-color: green;
+  color: white;
+}
+.wow:hover, .wow:active {
+  background-color: green;
+  color: white;
+}
+a:visited {
+	border-color: lightblue;
+}
+h1.dell {
+	text-align:center;
+}
+img.cod {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 40%;
+}
+.about {
+	text-align: center;
+}
+img.vivo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+a.hey{
+	background-color:lightgreen;
+}
