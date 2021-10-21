@@ -13,7 +13,7 @@ body {
 	color: white;
 	text-align: center;
 	padding-left: 5%;
-	padding-top: 5%;
+	padding-top: 0%;
 	font-size: 18px;
 }
 .down {
@@ -29,9 +29,15 @@ body {
 	float: left;
 	padding: 10px;
 }
+table {
+	align:center;
+}
 h3 {
 	float: left;
 	padding: 5px;
+}
+neg {
+	padding-left:50%;
 }
 body {
 	background-image: url('background.jpg');
