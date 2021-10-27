@@ -30,9 +30,15 @@ body {
 	float: left;
 	padding: 10px;
 }
+table {
+	align:center;
+}
 h3 {
 	float: left;
 	padding: 5px;
+}
+neg {
+	padding-left:50%;
 }
 body {
 	background-image: url('background.jpg');
