@@ -1,4 +1,4 @@
-function myFunction() {
+function wonderful() {
   document.getElementById("itsdrop").classList.toggle("show");
 }
 
