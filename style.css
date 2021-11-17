@@ -1,0 +1,47 @@
+body {
+	background-image: url("background.jpg");
+}
+.topnavbar {
+	
+	background-color: rgba(0, 0, 0, 0.4);
+	width: 100%;
+	display: table;
+	border-radius: 10px;
+}
+.leftbar {
+	text-align: center;
+	width: 15%;
+	float: left;
+	font-family: Segoe UI;
+	color: white;
+}
+a.navd {
+	padding-left: 10%;
+	color: white;
+	text-decoration: none;
+	font-family: Segoe UI;
+}
+a {
+	color: rgba(255, 255, 255, 0.5);
+}
+.rightbar {
+	text-align: center;
+	width: 25%;
+	margin-bottom: 0.5%;
+	margin-top: 1%;
+	float: right;
+}
+.bottom {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	text-align: center;
+	font-family: Segoe UI;
+	color: rgba(255, 255, 255, 0.5);
+}
+.revamp {
+	color: white;
+	font-family: Century Gothic;
+	text-align: center;
+}
