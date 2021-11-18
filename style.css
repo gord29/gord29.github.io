@@ -1,25 +1,37 @@
 body {
 	background-image: url("background.jpg");
 }
+@font-face {
+	font-family: Charger;
+	src: url(font/charger.otf);
+}
+@font-face {
+	font-family: Nano;
+	src: url(font/Nanotech.otf);
+}
 .topnavbar {
 	
 	background-color: rgba(0, 0, 0, 0.4);
 	width: 100%;
 	display: table;
 	border-radius: 10px;
+	letter-spacing: 1px;
 }
 .leftbar {
 	text-align: center;
 	width: 15%;
 	float: left;
-	font-family: Segoe UI;
+	font-family: Nano;
 	color: white;
 }
 a.navd {
 	padding-left: 10%;
 	color: white;
 	text-decoration: none;
-	font-family: Segoe UI;
+	font-family: Nano;
+}
+.navd:hover {
+	text-decoration: underline;
 }
 a {
 	color: rgba(255, 255, 255, 0.5);
@@ -42,6 +54,7 @@ a {
 }
 .revamp {
 	color: white;
-	font-family: Century Gothic;
+	font-family: Charger;
 	text-align: center;
+	letter-spacing: 1px;
 }
