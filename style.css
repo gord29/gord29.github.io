@@ -16,7 +16,17 @@ body {
 	display: table;
 	border-radius: 10px;
 	letter-spacing: 1px;
+	position:relative;
+	animation:animatetop 0.4s
 }
+@keyframes fadeInAnimation {
+     0% {
+    opacity: 0;
+    }
+    100% {
+    opacity: 1;
+    }
+  }
 .leftbar {
 	text-align: center;
 	width: 15%;
@@ -24,14 +34,32 @@ body {
 	font-family: Nano;
 	color: white;
 }
+.body {
+	text-align: center;
+	animation: fadeInAnimation ease 1s;
+	opacity: 0;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes animatetop {
+	from{top:-300px;opacity:0}
+	to{top:0;opacity:1}
+}
+.lol {
+	width: 60%;
+	border: 1px solid rgba(255, 255, 255, 0.4);
+	border-radius: 60%;
+}
 a.navd {
 	padding-left: 10%;
 	color: white;
 	text-decoration: none;
 	font-family: Nano;
+	transition: color 0.3s;
 }
 .navd:hover {
-	text-decoration: underline;
+	color: #99e7ff;
 }
 a {
 	color: rgba(255, 255, 255, 0.5);
@@ -43,18 +71,29 @@ a {
 	margin-top: 1%;
 	float: right;
 }
+img {
+	height: 40%;
+	width: 30%;
+	object-fit: cover;
+}
 .bottom {
+	letter-spacing: 1px;
 	position: fixed;
 	left: 0;
 	bottom: 0;
 	right: 0;
 	text-align: center;
-	font-family: Segoe UI;
+	font-family: Charger;
 	color: rgba(255, 255, 255, 0.5);
 }
 .revamp {
 	color: white;
 	font-family: Charger;
 	text-align: center;
+	letter-spacing: 1px;
+}
+p.spartan {
+	font-family: Charger;
+	color: rgba(255, 255, 255, 0.5);
 	letter-spacing: 1px;
 }
