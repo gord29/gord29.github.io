@@ -3,11 +3,11 @@ body {
 }
 @font-face {
 	font-family: Charger;
-	src: url(font/charger.otf);
+	src: url(Font/charger.otf);
 }
 @font-face {
 	font-family: Nano;
-	src: url(font/Nanotech.otf);
+	src: url(Font/Nanotech.otf);
 }
 .topnavbar {
 	
