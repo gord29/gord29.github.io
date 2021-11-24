@@ -59,8 +59,18 @@ a.navd {
 	font-family: Nano;
 	transition: color 0.3s;
 }
+a.navde {
+	color: #1affd1;
+	padding-left: 10%;
+	text-decoration: none;
+	font-family: Nano;
+	transition: color 0.3s;
+}
 .navd:hover {
 	color: #99e7ff;
+}
+a:active {
+	text-decoration: underline;
 }
 a {
 	color: rgba(255, 255, 255, 0.5);
